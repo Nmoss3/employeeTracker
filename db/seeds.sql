@@ -33,7 +33,7 @@ VALUES
     ('Nicola', 'Tesla', 2, 1),
     ('Carlos', 'Sandiego', 3, NULL),
     ('Stuart', 'Smalls', 4, 3),
-    ('Megan', 'LeCrow', 5, 2),
+    ('Megan', 'Grabo', 5, 2),
     ('Nicholas', 'Moss', 6, 2),
     ('Charles', 'Brown', 7, NULL),
     ('Leslie', 'Adams', 8, 7),
