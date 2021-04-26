@@ -8,7 +8,7 @@ VALUES
     ('Housekeeping'),
     ('Kitchen'),
     ('Maintenance');
-INSERT INTO role
+INSERT INTO roles
     (title, salary, department_id)
 VALUES
     ('General Manager', 100000, 1),
@@ -27,13 +27,13 @@ VALUES
     ('Lead Engineer', 75000, 6),
     ('Engineer', 48000, 6);
 INSERT INTO employee
-    (first_name, last_name, role_id, manager_id)
+    (first_name, last_name, roles_id, manager_id)
 VALUES
     ('Dominick', 'Baker', 1, NULL),
     ('Nicola', 'Tesla', 2, 1),
     ('Carlos', 'Sandiego', 3, NULL),
     ('Stuart', 'Smalls', 4, 3),
-    ('Megan', 'LeCrow', 5, 2),
+    ('Megan', 'Grabo', 5, 2),
     ('Nicholas', 'Moss', 6, 2),
     ('Charles', 'Brown', 7, NULL),
     ('Leslie', 'Adams', 8, 7),
